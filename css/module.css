@@ -1,14 +1,33 @@
 
+/* page backgrounds */
 
-body {
+.home_body {
   background-image: url("http://i.imgur.com/O3FO1fo.jpg");
   background-position: absolute;
   height: 100vh;
   width: 100vh;
   background-size: cover;
-
   }
 
+.about_body {
+  background-image: url("http://i.imgur.com/WmIfuTG.jpg");
+  background-position: absolute;
+  height: 100vh;
+  width: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+
+.photo_body {
+  background-image: url("http://i.imgur.com/bpLuf4u.jpg");
+  background-position: absolute;
+  height: 100vh;
+  width: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* page headers*/
 .main_header {
   overflow: hidden;
   position: fixed;
@@ -40,6 +59,8 @@ body {
 position: fixed;
 margin: 25px 0px 0px 20em;
 }
+
+/* page footers */
 
 .main_footer_ul_li {
   display: inline-block;

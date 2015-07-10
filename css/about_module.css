@@ -1,0 +1,10 @@
+
+
+body {
+  background-image: url("http://i.imgur.com/O3FO1fo.jpg");
+  background-position: absolute;
+  height: 100vh;
+  width: 100vh;
+  background-size: cover;
+
+  }
