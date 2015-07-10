@@ -67,6 +67,11 @@
   color: inherit;
 }
 
+.main_header a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .main_header_nav {
 position: fixed;
 margin: 25px 0px 0px 20em;
