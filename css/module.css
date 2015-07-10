@@ -41,6 +41,14 @@
   overflow: hidden;
   position: fixed;
   background: black;
+  margin: 0em 8px 0px 0em;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.about_header {
+  overflow: hidden;
+  position: fixed;
   margin: -10em 8px 0px 0em;
   width: 100%;
   background: rgba(0,0,0,0.5);
