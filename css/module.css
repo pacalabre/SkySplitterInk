@@ -3,7 +3,7 @@
 
 .home_body {
   background-image: url("http://i.imgur.com/O3FO1fo.jpg");
-  background-position: absolute;
+  background-position: 100% 20%;
   height: 100vh;
   width: 100vh;
   background-size: cover;
@@ -11,7 +11,7 @@
 
 .about_body {
   background-image: url("http://i.imgur.com/WmIfuTG.jpg");
-  background-position: center;
+  background-position: 100% 70%;
   height: 100vh;
   width: 100vh;
   background-size: cover;
@@ -56,7 +56,7 @@
   color: white;
   font-size: 25px;
   float: left;
-  margin: 40px -5px 5px 15px;
+  margin: 40px -5px 5px 1.5em;
   font-family: special elite;
   text-transform: uppercase;
 
@@ -84,7 +84,7 @@
 
 .main_header_nav {
 position: fixed;
-margin: 20px 0px 0px 21em;
+margin: 20px 0px 0px 30em;
 }
 
 
