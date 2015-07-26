@@ -7,6 +7,7 @@
   height: 100vh;
   width: 100vh;
   background-size: cover;
+  background-repeat: no-repeat;
   }
 
 .about_body {
@@ -20,11 +21,12 @@
 
 .photos_body {
   background-image: url("http://i.imgur.com/bpLuf4u.jpg");
-  background-position: absolute;
+  background-position: relative;
   height: 100vh;
   width: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
   }
 
 .contact_body {
@@ -38,7 +40,7 @@
 
 /* page headers*/
 .main_header {
-  overflow: hidden;
+  top: 0;
   position: fixed;
   background: black;
   margin: 0em 8px 0px 0em;
@@ -50,6 +52,8 @@
   float: left;
   color: white;
   padding: 0px 0px;
+  width: 100px;
+  height: 100px;
 }
 
 .main_header_h1 {
@@ -111,6 +115,7 @@ p {
   font: Oswald white 15px;
   color: white;
   padding: 0px 1em;
+
 }
 
 .footer {
@@ -118,7 +123,20 @@ p {
   bottom: 0;
   background: rgba(0,0,0,1);
   width: 100%;
-  padding: 5px 20em;
+  padding: 5px;
+  margin: 0em 5px 0em 0px;
 }
+
+.main_footer_img {
+  margin: -6em 20px -5px 53em;
+  float: clear;
+  width: 9%;
+  height: 9%;
+}
+
+.footer_ul {
+  margin: 25px 0px 0px 0px;
+}
+
 
 
