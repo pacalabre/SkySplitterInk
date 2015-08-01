@@ -91,7 +91,6 @@ position: fixed;
 margin: 20px 0px 0px 30em;
 }
 
-
 /* paragraph styling*/
 
 p {
@@ -130,13 +129,129 @@ p {
 .main_footer_img {
   margin: -6em 20px -5px 53em;
   float: clear;
-  width: 9%;
-  height: 9%;
+  width: 90px;
+  height: 90px;
 }
 
 .footer_ul {
   margin: 25px 0px 0px 0px;
 }
+
+/* Move Logo*/
+
+@media screen and (max-width: 950px) {
+
+   .main_footer_img {
+  margin: -6em 20px -5px 45em;
+    }
+
+.main_header_nav {
+  margin: 20px 0px 0px 25em;
+  }
+
+
+}
+
+
+@media screen and (max-width: 825px) {
+
+  /* Hamburger Menu from source(http://inspirationalpixels.com/tutorials/creating-a-responsive-menu-with-html-css-jquery#jquery-toggling) */
+
+  .menu {
+    width: 100%;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.15);
+    border-radius: 3px;
+  }
+
+    /* Make Label Logo Disappear */
+
+  .main_footer_img {
+    display: none;
+  }
+
+  /* Change Background for Mobile Site */
+  .home_body {
+  background-image: url("http://i.imgur.com/87RCjA9.jpg");
+  background-size: cover;
+  background-position: 100% 0%;
+  }
+
+
+  /* Make Menu Responsive */
+
+  .main_header_nav ul.active {
+    display: none;
+  }
+
+  .main_header_nav ul {
+    width:100%;
+    position:absolute;
+    top:120%;
+    left:0px;
+    padding:10px 18px;
+    box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+    border-radius:3px;
+    background:#303030;
+  }
+
+  .main_header_nav ul:after {
+    width:0px;
+    height:0px;
+    position:absolute;
+    top:0%;
+    left:22px;
+    content:'';
+    transform:translate(0%, -100%);
+    border-left:7px solid transparent;
+    border-right:7px solid transparent;
+    border-bottom:7px solid #303030;
+  }
+
+  .main_header_nav li {
+    margin:5px 0px 5px 0px;
+    float:none;
+    display:block;
+  }
+
+  .main_header_nav a {
+    display: block;
+  }
+
+  .toggle-nav {
+    padding:20px;
+    float:left;
+    display:inline-block;
+    box-shadow:0px 1px 1px rgba(0,0,0,0.15);
+    border-radius:3px;
+    background:#303030;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+    color:#777;
+    font-size:20px;
+    transition: color linear 0.15s;
+  }
+
+  .toggle-nav:hover, .toggle-nav.active {
+    text-decoration: none;
+    color: #fff;
+    }
+
+  .main_header_nav {
+  margin: 20px 0px 0px 40em;
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+
+  .main_header_nav {
+  margin: 20px 0px 0px 30em;
+}
+
+}
+
+
+
+
 
 
 
