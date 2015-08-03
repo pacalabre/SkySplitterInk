@@ -163,6 +163,10 @@ p {
     font-size: 25px;
   }
 
+  .main_section {
+    padding: 6em 25em;
+  }
+
 }
 
 @media only screen and (min-width : 1175px) and (max-width: 1299px) {
@@ -182,6 +186,10 @@ p {
   .main_header_nav_ul_li {
     font-size: 25px;
   }
+
+  .main_section {
+    padding: 6em 18em;
+  }
 }
 
 @media screen and (max-width: 950px) {
@@ -194,6 +202,9 @@ p {
     margin: 20px 0px 0px 25em;
   }
 
+  .main_section {
+      padding: 6em 16em;
+    }
 }
 
 @media screen and (max-width: 825px) {
@@ -284,6 +295,9 @@ p {
   margin: 20px 0px 0px 40em;
   }
 
+  .main_section {
+        padding: 6em 14em;
+      }
 }
 
 
@@ -293,6 +307,9 @@ p {
   margin: 20px 0px 0px 30em;
   }
 
+  .main_section {
+        padding: 6em 6em;
+      }
 }
 
 @media screen and (max-width: 585px) {
@@ -316,6 +333,9 @@ p {
   .main_header_nav_ul_li {
     font-size: 15px;
   }
+  .main_section {
+      padding: 6em 2em;
+    }
 }
 
 /* iphone 4 and 5 */
@@ -353,6 +373,9 @@ p {
     padding: 0px .35em;
   }
 
+  .main_section {
+      padding: 1em 0em;
+    }
 }
 
 /* Other smartphone */
@@ -389,6 +412,10 @@ p {
   .main_footer_ul_li {
     padding: 0px .35em;
   }
+
+  .main_section {
+      padding: 1em 0em;
+    }
 
 }
 
@@ -427,6 +454,9 @@ p {
     padding: 0px 1em;
   }
 
+  .main_section {
+      padding: 4em 0em;
+    }
 }
 
 
