@@ -46,6 +46,7 @@
   margin: 0em 8px 0px 0em;
   width: 100%;
   background: rgba(0,0,0,.85);
+  z-index: 2;
 }
 
 .logo {
@@ -84,6 +85,7 @@
 .main_header a {
   text-decoration: none;
   color: inherit;
+
 }
 
 .main_header_nav {
@@ -91,10 +93,16 @@ position: fixed;
 margin: 20px 0px 0px 30em;
 }
 
+/* Gallery Position */
+.main_section {
+  margin: auto;
+  width: 100%;
+  padding: 6em 12em;
+}
 /* paragraph styling*/
 
 p {
-  margin: 10em auto auto 7em;
+  margin: 10em auto auto auto;
   background: rgba(0,0,0,0.7);
   color: white;
   padding: 2em 2em;
@@ -102,10 +110,6 @@ p {
   position: absolute;
   font-size: 20px;
   z-index: -1;
-}
-
-.main_paragraph {
-  margin: 9em auto auto 7em;
 }
 
 /* page footers */
@@ -252,6 +256,13 @@ p {
 
 }
 
+@media screen and (max-width: 550px) {
+
+  .main_header_nav {
+  margin: 20px 0px 0px 23em;
+  }
+
+}
 
 
 
